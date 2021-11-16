@@ -9,9 +9,9 @@ if(age > 18 && age < 65){
 }
 
 if(age < 18){
-    let discountPrice = alert(`Normal ticet price would be ${travelPrice}£  but you are getting 20% of ${0.21 * travelingDistance * 0.20}£`)
+    let discountPrice = alert(`Normal ticet price would be ${travelPrice}£  but you are getting 20% of ${0.21 * travelingDistance * 0.20}£ and the new price will be  ${travelPrice - 0.21 * travelingDistance * 0.20}£`)
 }
 
 if(age >= 65){
-    discountPrice = alert(`Normal ticet price would be ${travelPrice}£  but you are getting 20% of ${0.21 * travelingDistance * 0.40}£`)
+    discountPrice = alert(`Normal ticet price would be ${travelPrice}£  but you are getting 40% of ${0.21 * travelingDistance * 0.40}£ and the new price will be  ${travelPrice - 0.21 * travelingDistance * 0.40}£ `)
 }
